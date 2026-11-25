@@ -18,7 +18,7 @@ ureq = { version = "3", features = ["json"] }
 # Offline Select Subject: the ISNet model run in-process by a pure-Rust ONNX runtime (MIT OR Apache-2.0).
 tract-onnx = "0.23"
 # Checks the downloaded model (MIT OR Apache-2.0).
-sha2 = "0.10"
+sha2 = "0.11"
 
 [dev-dependencies]
 tempfile = { workspace = true }

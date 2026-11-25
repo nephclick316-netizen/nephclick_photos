@@ -19,8 +19,8 @@ craft-plist = { workspace = true }
 # No `system` feature: fontique's system backend links fontconfig on Linux. The installed fonts
 # come from the craft font Catalog; the bundled fonts are always registered (native + web).
 craft = { workspace = true, default-features = false, features = ["font-catalog", "font-manager"] }
-parley = { version = "0.11", default-features = false, features = ["std"] }
-skrifa = "0.47"
+parley = { version = "0.13", default-features = false, features = ["std"] }
+skrifa = "0.49"
 flate2 = { workspace = true }
 # Subresource Integrity values for served fonts.
 base64 = "0.23"
