@@ -37,7 +37,7 @@ craft-psd = { workspace = true }
 nephclick-photolab-format = { workspace = true }
 nephclick-photolab-plugins = { workspace = true }
 nephclick-photolab-ai = { workspace = true }
-base64 = "0.22"
+base64 = "0.23"
 blake3 = { version = "1.8", default-features = false, features = ["pure"] }
 nephclick-photolab-codecs = { workspace = true }
 nephclick-photolab-formats = { workspace = true }
